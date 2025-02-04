@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f9e3e3;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.header_text {
+    font-size: 3em;
+    color: #d32f2f;
+}
+
+.gif_container img {
+    width: 100%; 
+    max-width: 500px; 
+    height: auto; 
+}
+
+.coeur2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3lqNjJ0OXZvd2N3MjhiYmFhaDh6eTliYmNwNW94eXQ2N3RxbmFpZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ruw1bRYN0IXNS/giphy.gif');
+    background-size: cover;
+    opacity: 0.6; 
+    z-index: -1; 
+}
